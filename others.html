@@ -4,34 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Deatils</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <style>
         table,tr,th,td{
             border: 1px solid black;
             border-collapse: collapse;
+            font-family: 'Roboto', sans-serif;
         }
+        .lists{
+            margin: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+        #name{
+            padding-left: 40px;
+            font-family: 'Roboto', sans-serif;
+        }
+       .detail{
+        padding-left: 5px;
+        font-family: 'Roboto', sans-serif;
+       }
+       h2{
+        font-family: 'Poppins', sans-serif;
+       }
     </style>
 </head>
 <body>
     <h2>My Personal Details</h2>
     <img src="assets/developer.png" alt="Developer Photo">
-    <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivani Shinde</p>
-    <p><strong>Mobile Number:</strong> &nbsp; 12345 678 90</p>
-    <p><strong>Email:</strong> &nbsp; shivani@gmail.com</p>
-    <p><strong>Date of Birth:</strong> &nbsp; Jan-26-2002</p>
-    <p><strong>Address:</strong> &nbsp; Hinjewadi,Pune</p>
+    <p ><span id="name"> Shivani Shinde</span></p>
+    <p><strong>Mobile Number:</strong> <span class="detail">12345 678 90</span> </p>
+    <p><strong>Email:</strong> &nbsp; <span class="detail">shivani@gmail.com</span></p>
+    <p><strong>Date of Birth:</strong> <span class="detail">Jan-26-2002</span> </p>
+    <p><strong>Address:</strong> <span class="detail"> Hinjewadi,Pune</span></p>
     <p><strong>Hobbies</strong>
         <ul>
-            <li>Playing Badminton</li>
-            <li>Cooking</li>
-            <li>Gardening</li>
+            <li  class="lists">Playing Badminton</li>
+            <li class="lists">Cooking</li>
+            <li class="lists">Gardening</li>
         </ul>
     </p>
     <p>
         <details>
             <summary><strong>Family Details</strong></summary>
             <ul>
-                <li>Father Name: Suresh Shinde</li>
-                <li>Monther Name: Mangal Shinde</li>
+                <li class="lists">Father Name: Suresh Shinde</li>
+                <li class="lists">Monther Name: Mangal Shinde</li>
             </ul>
         </details>
     

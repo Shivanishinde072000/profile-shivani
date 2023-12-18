@@ -5,36 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <!-- CDN Link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CDN Link - Google font families -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap" rel="stylesheet">
+       
+    <style>
+        header {
+            background-color: #EEA47F;
+            font-weight: bolder;
+            padding: 10px;
+            color: #00539C;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        #name {
+            padding-left: 5px;
+        }
+
+        nav a {
+
+            margin-right: 40px;
+            text-decoration: none;
+        }
+
+        #homeLink {
+            margin-left: 5px;
+        }
+
+        span {
+            padding-right: 30px;
+        }
+
+        .links {
+            padding-right: 20px;
+        }
+
+        footer {
+            background-color: #9776c2;
+            padding: 10px;
+            text-decoration: none;
+
+        }
+
+        footer a {
+            color: #092b29;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header Section -->
     <header>
-        <span>Name: Shivani Shinde &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile: 8759 4325 56 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Email:shivani@gmail.com</span>
+
+        <span id="name"><i class="fa fa-user"></i> Shivani Shinde</span>
+        <span><i class="fa fa-phone"></i> 8759 4325 56</span>
+        <span><i class="fa fa-envelope"></i> shivani@gmail.com</span>
     </header>
     <hr>
     <!-- Navigation Section -->
     <nav>
-        <a href="home.html" target="myframe">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myframe">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="myframe">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myframe">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="myframe" id="homeLink">HOME</a>
+        <a href="techStack.html" target="myframe">TECH STACK</a>
+        <a href="project.html" target="myframe">PROJECT</a>
+        <a href="education.html" target="myframe">EDUCATION</a>
         <a href="others.html" target="myframe">OTHERS</a>
     </nav>
     <hr>
     <!-- Body Section -->
-    <iframe src="home.html" name="myframe" frameborder="0" width="600px" height="300px"></iframe>
-    <!-- <iframe src="techStack.html" name="mystack" frameborder="0" width="800px" height="400px"></iframe>
-    <iframe src="project.html" name="myproject" frameborder="0" width="900px" height="600px"></iframe>
-    <iframe src="education.html" name="myeducation" frameborder="0"width="800px" height="400px"></iframe>
-    <iframe src="others.html" name="others" frameborder="0"></iframe> -->
-    
+    <iframe src="home.html" name="myframe" frameborder="0" width="900px" height="450px"></iframe>
+
+
     <!-- Footer Section -->
     <footer>
-        <a href="https://in.linkedin.com/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.naukri.com/" target="_blank">Naukri</a>
+        <a href="https://in.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://github.com/" target="_blank" class="fa fa-github"> </a>
+        <a href="https://www.naukri.com/" target="_blank" class="links">Naukri</a>
+
     </footer>
 </body>
 
